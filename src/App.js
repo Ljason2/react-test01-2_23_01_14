@@ -19,7 +19,7 @@ function ProColor(props){
     function colorOption(){
         const colop=window.data.allColor;
        return colop.map((item,index)=>
-         {return (<option style={{backgroundColor:"white"}}value={item}>{item}</option>)}
+         {return (<option style={{backgroundColor:"white"}}value={item} key={index}>{item}</option>)}
         )
     }
     
